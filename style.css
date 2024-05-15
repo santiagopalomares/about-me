@@ -36,6 +36,12 @@ nav {
   align-items: center;
   padding: 0 2rem;
   height: 10vh;
+  position: fixed; /* Fixed position */
+  top: 0; /* Stick to the top */
+  left: 0; /* Stick to the left */
+  right: 0; /* Stick to the right */
+  background-color: white; /* Background color */
+  z-index: 1000; /* Ensure it stays on top */
 }
 
 .nav-links {
@@ -141,6 +147,7 @@ section {
   padding-right: 10rem;
   height: 96vh;
   box-sizing: border-box;
+  margin-top: 10vh; /* Add margin to avoid content overlap with the fixed navbar */
 }
 
 .section-container {
@@ -273,7 +280,6 @@ section {
 .about-pic {
   border-radius: 2rem;
 }
-
 
 .details-container {
   padding: 1.5rem;
