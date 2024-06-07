@@ -17,7 +17,6 @@
             <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
             <li class="nav-item"><a class="nav-link text-white" href="#experience">Experience</a></li>
             <li class="nav-item"><a class="nav-link text-white" href="#projects">Projects</a></li>
-            <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
           </ul>
         </nav>
         <div class="d-lg-none hamburger-menu" onclick="toggleMenu()">
@@ -32,7 +31,6 @@
         <li class="nav-item"><a class="nav-link text-white" href="#about" onclick="toggleMenu()">About</a></li>
         <li class="nav-item"><a class="nav-link text-white" href="#experience" onclick="toggleMenu()">Experience</a></li>
         <li class="nav-item"><a class="nav-link text-white" href="#projects" onclick="toggleMenu()">Projects</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="#contact" onclick="toggleMenu()">Contact</a></li>
       </ul>
     </div>
   </header>
@@ -48,7 +46,6 @@
             <p class="lead">Hello, I'm</p>
             <h1 class="display-4">Santiago Palomares</h1>
             <p class="lead">Software Engineer</p>
-            <button class="btn btn-primary my-3" onclick="location.href='#contact'">Contact Info</button>
             <div id="socials-container" class="d-flex justify-content-center">
               <a href="https://www.linkedin.com/in/santiagopalomares/" class="mx-2">
                 <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon">
@@ -172,32 +169,25 @@
         </div>
       </div>
     </section>
-
-    <section id="contact" class="py-5">
-      <div class="container">
-        <p class="lead text-center">Get in Touch</p>
-        <h1 class="text-center mb-5">Contact Me</h1>
-        <div class="row">
-          <div class="col-md-6 mb-4 text-center">
-            <div class="d-flex align-items-center justify-content-center">
-              <img src="./assets/email.png" alt="Email icon" class="icon mr-3 contact-icon email-icon">
-              <p><a href="mailto:spaloma.v1@gmail.com">spaloma.v1@gmail.com</a></p>
-            </div>
-          </div>
-          <div class="col-md-6 mb-4 text-center">
-            <div class="d-flex align-items-center justify-content-center">
-              <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon mr-3 contact-icon">
-              <p><a href="https://www.linkedin.com/in/santiago-palomares">LinkedIn</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer class="bg-dark text-white py-3">
     <div class="container text-center">
       <p>&copy; 2024 Santiago Palomares. All Rights Reserved.</p>
+      <div class="row">
+        <div class="col-md-6 mb-4 text-center">
+          <div class="d-flex align-items-center justify-content-center">
+            <img src="./assets/email.png" alt="Email icon" class="icon mr-3 contact-icon email-icon">
+            <p><a href="mailto:spaloma.v1@gmail.com" class="text-white">spaloma.v1@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4 text-center">
+          <div class="d-flex align-items-center justify-content-center">
+            <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon mr-3 contact-icon">
+            <p><a href="https://www.linkedin.com/in/santiago-palomares" class="text-white">LinkedIn</a></p>
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
 
@@ -210,7 +200,7 @@
     }
   </script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
