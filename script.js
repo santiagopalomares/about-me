@@ -1,3 +1,4 @@
+
 function toggleMenu() {
   const hamburgerIcon = document.querySelector('.hamburger-icon');
   const menuLinks = document.querySelector('.menu-links');
