@@ -1,115 +1,149 @@
-
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
+<head>
+    <meta charset="utf-8">
     <link rel="icon" href="./assets/images/1311.png" />
-		<title>Santiago</title>
+    <title>Santiago</title>
     <meta name="description" content="Personal portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/typography.css">
     <link rel="stylesheet" href="./css/utilities.css">
 
-		<script defer src="./js/script.js"></script>
-	</head>
-	<body>
+    <script defer src="./js/script.js"></script>
+</head>
+<body>
     <!-- NAVBAR -->
     <div class="navbar">
-      <a class="nav-title-link" href="./index.html">
-        <span class="nav-title">Santiago</span>
-        <a class="button" href="spaloma.v1@gmail.com">
-          <span class="button-text">Contact Me</span>
+        <a class="nav-title-link" href="./index.html">
+            <span class="nav-title">Santiago</span>
+            <a class="button" href="spaloma.v1@gmail.com">
+                <span class="button-text">Contact Me</span>
+            </a>
         </a>
-      </a>
     </div>
 
     <!-- MAIN PAGE CONTENT -->
     <div id="main-content">
 
-      <!-- PORTFOLIO HEADER -->
-      <div id="portfolio-header">
-        <div id="portfolio-header-image-container">
-          <img src="./assets/images/PPCB.png" class="portfolio-header-image">
-          <a class="no-underline" target="_blank" href="https://opensea.io/assets/0xe0be388ab81c47b0f098d2030a1c9ef190691a8a/1311">
-            <span class="image-caption">Your Next Software Engineer</span>
-          </a>
-        </div>
-        <div id="portfolio-header-text-container">
-            <div class="header-text">
-              <span class="main-title">Hey, I'm Santiago Palomares</span>
-              <div class="body-text">I’m a Software Engineering major at the University of California Irvine</div>
+        <!-- PORTFOLIO HEADER -->
+        <div id="portfolio-header">
+            <div id="portfolio-header-image-container">
+                <img src="./assets/images/PPCB.png" class="portfolio-header-image">
+                <a class="no-underline" target="_blank" href="https://opensea.io/assets/0xe0be388ab81c47b0f098d2030a1c9ef190691a8a/1311">
+                    <span class="image-caption">Your Next Software Engineer</span>
+                </a>
             </div>
-            <a class="button" id="my-work-link">
-              <span class="button-text">Check out my projects</span> 
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-        </div>
-      </div>
-
-      <!-- ABOUT SECTION -->
-      <!-- 
-        TODO
-
-        - Change the subheader-text to whatever header you want
-        - Add paragraphs using the <div class="body-text"></div> elements in the "about-section-content"
-      -->
-      <div id="about-section">
-        <span class="subheader-text">My Background / About Me</span>
-        <div class="about-section-content">
-          <div class="body-text">As a Full Stack Engineer at NewU Crypto and an undergraduate student researcher at UC Irvine, I am passionate about leveraging technology to drive innovative solutions. With hands-on experience in developing scalable software, including community features and AI models for cryptocurrencies, I excel in using frameworks like React, Node.js, and tools such as Docker and Git. My academic journey in Software Engineering, combined with internships at the National Research Group and UC Irvine, underscores my commitment to advancing in the field of software development and embedded systems.</div>
-          <div class="body-text"></div>
-        </div>
-      </div>
-
-      <!-- PROJECTS -->
-      <div id="my-work-section">
-        <span class="subheader-text">My Projects</span>
-
-        <div class="projects-container">
-          <div class="project-card">
-            <img src="./assets/images/desktop.jpeg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Project Name</div>
-              <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div>
+            <div id="portfolio-header-text-container">
+                <div class="header-text">
+                    <span class="main-title">Hey, I'm Santiago Palomares</span>
+                    <div class="body-text">I’m a Software Engineering major at the University of California Irvine</div>
+                </div>
+                <a class="button" id="my-work-link">
+                    <span class="button-text">Check out my projects</span> 
+                    <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+                </a>
             </div>
-            <a class="button" href="./project-pages/project1.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
-          <div class="project-card">
-            <img src="./assets/images/code.jpeg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Project Name</div>
-              <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div>
-            </div>
-            <a class="button" href="./project-pages/project2.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
-          <div class="project-card">
-            <img src="./assets/images/sketchbook.jpeg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Project Name</div>
-              <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div>
-            </div>
-            <a class="button" href="./project-pages/project3.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
         </div>
-      </div>
+
+        <!-- ABOUT SECTION -->
+        <div id="about-section">
+            <span class="subheader-text">My Background / About Me</span>
+            <div class="about-section-content">
+                <div class="body-text">As a Full Stack Engineer at NewU Crypto and an undergraduate student researcher at UC Irvine, I am passionate about leveraging technology to drive innovative solutions. With hands-on experience in developing scalable software, including community features and AI models for cryptocurrencies, I excel in using frameworks like React, Node.js, and tools such as Docker and Git. My academic journey in Software Engineering, combined with internships at the National Research Group and UC Irvine, underscores my commitment to advancing in the field of software development and embedded systems.</div>
+                <div class="body-text"></div>
+            </div>
+        </div>
+
+        <!-- WORK EXPERIENCE SECTION -->
+        <!-- <div id="work-experience-section">
+            <span class="subheader-text">Work Experience</span>
+
+            <div class="experience-container">
+                <div class="experience-card">
+                    <img src="./assets/images/company1.jpeg" class="experience-image">
+                    <div class="experience-card-text-container">
+                        <div class="subheader-text experience-title">Job Title</div>
+                        <div class="body-text experience-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut odio tellus. Donec et felis vitae nulla varius ultrices.</div>
+                    </div>
+                    <a class="button" href="./experience-pages/experience1.html">
+                        <span class="button-text">Read More</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+                    </a>
+                </div>
+                <div class="experience-card">
+                    <img src="./assets/images/company2.jpeg" class="experience-image">
+                    <div class="experience-card-text-container">
+                        <div class="subheader-text experience-title">Job Title</div>
+                        <div class="body-text experience-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut odio tellus. Donec et felis vitae nulla varius ultrices.</div>
+                    </div>
+                    <a class="button" href="./experience-pages/experience2.html">
+                        <span class="button-text">Read More</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+                    </a>
+                </div>
+                <div class="experience-card">
+                    <img src="./assets/images/company3.jpeg" class="experience-image">
+                    <div class="experience-card-text-container">
+                        <div class="subheader-text experience-title">Job Title</div>
+                        <div class="body-text experience-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut odio tellus. Donec et felis vitae nulla varius ultrices.</div>
+                    </div>
+                    <a class="button" href="./experience-pages/experience3.html">
+                        <span class="button-text">Read More</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+                    </a>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- PROJECTS -->
+        <div id="my-work-section">
+            <span class="subheader-text">My Projects</span>
+
+            <div class="projects-container">
+                <div class="project-card">
+                    <img src="./assets/images/desktop.jpeg" class="project-image">
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Project Name</div>
+                        <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div>
+                    </div>
+                    <a class="button" href="./project-pages/project1.html">
+                        <span class="button-text">Read More</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <img src="./assets/images/code.jpeg" class="project-image">
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Project Name</div>
+                        <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div>
+                    </div>
+                    <a class="button" href="./project-pages/project2.html">
+                        <span class="button-text">Read More</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <img src="./assets/images/sketchbook.jpeg" class="project-image">
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Project Name</div>
+                        <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div>
+                    </div>
+                    <a class="button" href="./project-pages/project3.html">
+                        <span class="button-text">Read More</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- FOOTER -->
     <div id="footer">
-      <a class="icon-link" href="mailto:whitevans.eth@gmail.com">
-        <image src="./assets/icons/mail.svg" class="footer-icon"/>
-      </a>
+        <a class="icon-link" href="mailto:whitevans.eth@gmail.com">
+            <img src="./assets/icons/mail.svg" class="footer-icon"/>
+        </a>
     </div>
-	</body>
+</body>
 </html>
